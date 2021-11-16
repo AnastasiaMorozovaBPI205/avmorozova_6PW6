@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		5D175516274435020078BE1C /* Accessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D175515274435020078BE1C /* Accessibility.framework */; };
 		5D175534274439CD0078BE1C /* MyLogger1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D175533274437F80078BE1C /* MyLogger1.framework */; };
 		5D175535274439CD0078BE1C /* MyLogger1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D175533274437F80078BE1C /* MyLogger1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5D17553D274448EA0078BE1C /* MyLogger2 in Frameworks */ = {isa = PBXBuildFile; productRef = 5D17553C274448EA0078BE1C /* MyLogger2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5D175512274430B20078BE1C /* UIViewPinExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewPinExtension.swift; sourceTree = "<group>"; };
 		5D175515274435020078BE1C /* Accessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accessibility.framework; path = System/Library/Frameworks/Accessibility.framework; sourceTree = SDKROOT; };
 		5D17552E274437F80078BE1C /* MyLogger1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MyLogger1.xcodeproj; path = ../MyLogger1/MyLogger1.xcodeproj; sourceTree = "<group>"; };
+		5D17553B274443490078BE1C /* MyLogger2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MyLogger2; path = ../MyLogger2; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D17553D274448EA0078BE1C /* MyLogger2 in Frameworks */,
 				5D175534274439CD0078BE1C /* MyLogger1.framework in Frameworks */,
 				5D175516274435020078BE1C /* Accessibility.framework in Frameworks */,
 			);
@@ -71,6 +74,7 @@
 		5D1754F2274427190078BE1C = {
 			isa = PBXGroup;
 			children = (
+				5D17553B274443490078BE1C /* MyLogger2 */,
 				5D17552E274437F80078BE1C /* MyLogger1.xcodeproj */,
 				5D1754FD274427190078BE1C /* avmorozova_6PW6 */,
 				5D1754FC274427190078BE1C /* Products */,
@@ -133,6 +137,9 @@
 			dependencies = (
 			);
 			name = avmorozova_6PW6;
+			packageProductDependencies = (
+				5D17553C274448EA0078BE1C /* MyLogger2 */,
+			);
 			productName = avmorozova_6PW6;
 			productReference = 5D1754FB274427190078BE1C /* avmorozova_6PW6.app */;
 			productType = "com.apple.product-type.application";
@@ -397,6 +404,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D17553C274448EA0078BE1C /* MyLogger2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyLogger2;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5D1754F3274427190078BE1C /* Project object */;
 }
