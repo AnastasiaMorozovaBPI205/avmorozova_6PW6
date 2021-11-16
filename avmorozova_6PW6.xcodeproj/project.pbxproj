@@ -13,6 +13,7 @@
 		5D1755082744271A0078BE1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D1755072744271A0078BE1C /* Assets.xcassets */; };
 		5D17550B2744271A0078BE1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1755092744271A0078BE1C /* LaunchScreen.storyboard */; };
 		5D175513274430B20078BE1C /* UIViewPinExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D175512274430B20078BE1C /* UIViewPinExtension.swift */; };
+		5D175516274435020078BE1C /* Accessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D175515274435020078BE1C /* Accessibility.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5D17550A2744271A0078BE1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D17550C2744271A0078BE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D175512274430B20078BE1C /* UIViewPinExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewPinExtension.swift; sourceTree = "<group>"; };
+		5D175515274435020078BE1C /* Accessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accessibility.framework; path = System/Library/Frameworks/Accessibility.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D175516274435020078BE1C /* Accessibility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				5D1754FD274427190078BE1C /* avmorozova_6PW6 */,
 				5D1754FC274427190078BE1C /* Products */,
+				5D175514274435010078BE1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				5D17550C2744271A0078BE1C /* Info.plist */,
 			);
 			path = avmorozova_6PW6;
+			sourceTree = "<group>";
+		};
+		5D175514274435010078BE1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D175515274435020078BE1C /* Accessibility.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

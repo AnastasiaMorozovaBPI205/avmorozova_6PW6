@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Accessibility
 
 class ViewController: UIViewController {
 
@@ -29,7 +30,7 @@ class ViewController: UIViewController {
     }
     
     @objc func frameworkButtonAction(sender: UIButton!) {
-        
+        print(Accessibility.log(3.0))
     }
     
     func setupPackageButton() {
