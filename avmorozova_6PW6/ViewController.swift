@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Accessibility
+import MyLogger1
 
 class ViewController: UIViewController {
 
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     }
     
     @objc func frameworkButtonAction(sender: UIButton!) {
-        print(Accessibility.log(3.0))
+        MyLogger1.log("hello, framework")
     }
     
     func setupPackageButton() {
